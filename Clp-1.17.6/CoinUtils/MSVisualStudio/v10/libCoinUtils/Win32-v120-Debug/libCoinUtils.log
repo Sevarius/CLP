@@ -1,0 +1,140 @@
+﻿Build started 02.09.2020 14:19:58.
+     1>Project "C:\Users\Всеволод\Desktop\Clp-1.17.6\Clp-1.17.6\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\..\BuildTools\headers /Zi /nologo /W3 /WX- /Od /Oy- /D COINUTILS_BUILD /D WIN32 /D _DEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0710 /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32-v120-Debug\\" /Fd"Win32-v120-Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\src\CoinAlloc.cpp ..\..\..\src\CoinBuild.cpp ..\..\..\src\CoinDenseFactorization.cpp ..\..\..\src\CoinDenseVector.cpp ..\..\..\src\CoinError.cpp ..\..\..\src\CoinFactorization1.cpp ..\..\..\src\CoinFactorization2.cpp ..\..\..\src\CoinFactorization3.cpp ..\..\..\src\CoinFactorization4.cpp ..\..\..\src\CoinFileIO.cpp ..\..\..\src\CoinFinite.cpp ..\..\..\src\CoinIndexedVector.cpp ..\..\..\src\CoinLpIO.cpp ..\..\..\src\CoinMessage.cpp ..\..\..\src\CoinMessageHandler.cpp ..\..\..\src\CoinModel.cpp ..\..\..\src\CoinModelUseful.cpp ..\..\..\src\CoinModelUseful2.cpp ..\..\..\src\CoinMpsIO.cpp ..\..\..\src\CoinOslFactorization.cpp ..\..\..\src\CoinOslFactorization2.cpp ..\..\..\src\CoinOslFactorization3.cpp ..\..\..\src\CoinPackedMatrix.cpp ..\..\..\src\CoinPackedVector.cpp ..\..\..\src\CoinPackedVectorBase.cpp ..\..\..\src\CoinParam.cpp ..\..\..\src\CoinParamUtils.cpp ..\..\..\src\CoinPostsolveMatrix.cpp ..\..\..\src\CoinPrePostsolveMatrix.cpp ..\..\..\src\CoinPresolveDoubleton.cpp ..\..\..\src\CoinPresolveDual.cpp ..\..\..\src\CoinPresolveDupcol.cpp ..\..\..\src\CoinPresolveEmpty.cpp ..\..\..\src\CoinPresolveFixed.cpp ..\..\..\src\CoinPresolveForcing.cpp ..\..\..\src\CoinPresolveHelperFunctions.cpp ..\..\..\src\CoinPresolveImpliedFree.cpp ..\..\..\src\CoinPresolveIsolated.cpp ..\..\..\src\CoinPresolveMatrix.cpp ..\..\..\src\CoinPresolvePsdebug.cpp ..\..\..\src\CoinPresolveSingleton.cpp ..\..\..\src\CoinPresolveSubst.cpp ..\..\..\src\CoinPresolveTighten.cpp ..\..\..\src\CoinPresolveTripleton.cpp ..\..\..\src\CoinPresolveUseless.cpp ..\..\..\src\CoinPresolveZeros.cpp ..\..\..\src\CoinRational.cpp ..\..\..\src\CoinSearchTree.cpp ..\..\..\src\CoinShallowPackedVector.cpp ..\..\..\src\CoinSimpFactorization.cpp ..\..\..\src\CoinSnapshot.cpp ..\..\..\src\CoinStructuredModel.cpp ..\..\..\src\CoinWarmStartBasis.cpp ..\..\..\src\CoinWarmStartDual.cpp ..\..\..\src\CoinWarmStartPrimalDual.cpp ..\..\..\src\CoinWarmStartVector.cpp
+         CoinWarmStartVector.cpp
+         CoinWarmStartPrimalDual.cpp
+         CoinWarmStartDual.cpp
+         CoinWarmStartBasis.cpp
+         CoinStructuredModel.cpp
+         CoinSnapshot.cpp
+         CoinSimpFactorization.cpp
+         CoinShallowPackedVector.cpp
+     1>..\..\..\src\CoinShallowPackedVector.cpp(37): warning C4101: 'e' : unreferenced local variable
+     1>..\..\..\src\CoinShallowPackedVector.cpp(58): warning C4101: 'e' : unreferenced local variable
+     1>..\..\..\src\CoinShallowPackedVector.cpp(78): warning C4101: 'e' : unreferenced local variable
+     1>..\..\..\src\CoinShallowPackedVector.cpp(97): warning C4101: 'e' : unreferenced local variable
+     1>..\..\..\src\CoinShallowPackedVector.cpp(117): warning C4101: 'e' : unreferenced local variable
+     1>..\..\..\src\CoinShallowPackedVector.cpp(135): warning C4101: 'e' : unreferenced local variable
+     1>..\..\..\src\CoinShallowPackedVector.cpp(153): warning C4101: 'e' : unreferenced local variable
+         CoinSearchTree.cpp
+         CoinRational.cpp
+     1>..\..\..\src\CoinRational.cpp(76): warning C4244: '+=' : conversion from 'double' to 'long', possible loss of data
+         CoinPresolveZeros.cpp
+         CoinPresolveUseless.cpp
+         CoinPresolveTripleton.cpp
+         CoinPresolveTighten.cpp
+         CoinPresolveSubst.cpp
+         CoinPresolveSingleton.cpp
+         CoinPresolvePsdebug.cpp
+         CoinPresolveMatrix.cpp
+         CoinPresolveIsolated.cpp
+         CoinPresolveImpliedFree.cpp
+         Generating Code...
+         Compiling...
+         CoinPresolveHelperFunctions.cpp
+         CoinPresolveForcing.cpp
+         CoinPresolveFixed.cpp
+         CoinPresolveEmpty.cpp
+         CoinPresolveDupcol.cpp
+         CoinPresolveDual.cpp
+         CoinPresolveDoubleton.cpp
+         CoinPrePostsolveMatrix.cpp
+         CoinPostsolveMatrix.cpp
+         CoinParamUtils.cpp
+         CoinParam.cpp
+         CoinPackedVectorBase.cpp
+         CoinPackedVector.cpp
+     1>..\..\..\src\CoinPackedVector.cpp(100): warning C4101: 'e' : unreferenced local variable
+     1>..\..\..\src\CoinPackedVector.cpp(479): warning C4101: 'e' : unreferenced local variable
+     1>..\..\..\src\CoinPackedVector.cpp(503): warning C4101: 'e' : unreferenced local variable
+         CoinPackedMatrix.cpp
+         CoinOslFactorization3.cpp
+         CoinOslFactorization2.cpp
+         CoinOslFactorization.cpp
+         CoinMpsIO.cpp
+         CoinModelUseful2.cpp
+         CoinModelUseful.cpp
+         Generating Code...
+         Compiling...
+         CoinModel.cpp
+         CoinMessageHandler.cpp
+         CoinMessage.cpp
+         CoinLpIO.cpp
+         CoinIndexedVector.cpp
+         CoinFinite.cpp
+         CoinFileIO.cpp
+         CoinFactorization4.cpp
+         CoinFactorization3.cpp
+         CoinFactorization2.cpp
+         CoinFactorization1.cpp
+         CoinError.cpp
+         CoinDenseVector.cpp
+         CoinDenseFactorization.cpp
+         CoinBuild.cpp
+         CoinAlloc.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Всеволод\Desktop\Clp-1.17.6\Clp-1.17.6\Clp\MSVisualStudio\v10\Win32-v120-Debug\libCoinUtils.lib" /NOLOGO "Win32-v120-Debug\CoinAlloc.obj"
+         "Win32-v120-Debug\CoinBuild.obj"
+         "Win32-v120-Debug\CoinDenseFactorization.obj"
+         "Win32-v120-Debug\CoinDenseVector.obj"
+         "Win32-v120-Debug\CoinError.obj"
+         "Win32-v120-Debug\CoinFactorization1.obj"
+         "Win32-v120-Debug\CoinFactorization2.obj"
+         "Win32-v120-Debug\CoinFactorization3.obj"
+         "Win32-v120-Debug\CoinFactorization4.obj"
+         "Win32-v120-Debug\CoinFileIO.obj"
+         "Win32-v120-Debug\CoinFinite.obj"
+         "Win32-v120-Debug\CoinIndexedVector.obj"
+         "Win32-v120-Debug\CoinLpIO.obj"
+         "Win32-v120-Debug\CoinMessage.obj"
+         "Win32-v120-Debug\CoinMessageHandler.obj"
+         "Win32-v120-Debug\CoinModel.obj"
+         "Win32-v120-Debug\CoinModelUseful.obj"
+         "Win32-v120-Debug\CoinModelUseful2.obj"
+         "Win32-v120-Debug\CoinMpsIO.obj"
+         "Win32-v120-Debug\CoinOslFactorization.obj"
+         "Win32-v120-Debug\CoinOslFactorization2.obj"
+         "Win32-v120-Debug\CoinOslFactorization3.obj"
+         "Win32-v120-Debug\CoinPackedMatrix.obj"
+         "Win32-v120-Debug\CoinPackedVector.obj"
+         "Win32-v120-Debug\CoinPackedVectorBase.obj"
+         "Win32-v120-Debug\CoinParam.obj"
+         "Win32-v120-Debug\CoinParamUtils.obj"
+         "Win32-v120-Debug\CoinPostsolveMatrix.obj"
+         "Win32-v120-Debug\CoinPrePostsolveMatrix.obj"
+         "Win32-v120-Debug\CoinPresolveDoubleton.obj"
+         "Win32-v120-Debug\CoinPresolveDual.obj"
+         "Win32-v120-Debug\CoinPresolveDupcol.obj"
+         "Win32-v120-Debug\CoinPresolveEmpty.obj"
+         "Win32-v120-Debug\CoinPresolveFixed.obj"
+         "Win32-v120-Debug\CoinPresolveForcing.obj"
+         "Win32-v120-Debug\CoinPresolveHelperFunctions.obj"
+         "Win32-v120-Debug\CoinPresolveImpliedFree.obj"
+         "Win32-v120-Debug\CoinPresolveIsolated.obj"
+         "Win32-v120-Debug\CoinPresolveMatrix.obj"
+         "Win32-v120-Debug\CoinPresolvePsdebug.obj"
+         "Win32-v120-Debug\CoinPresolveSingleton.obj"
+         "Win32-v120-Debug\CoinPresolveSubst.obj"
+         "Win32-v120-Debug\CoinPresolveTighten.obj"
+         "Win32-v120-Debug\CoinPresolveTripleton.obj"
+         "Win32-v120-Debug\CoinPresolveUseless.obj"
+         "Win32-v120-Debug\CoinPresolveZeros.obj"
+         "Win32-v120-Debug\CoinRational.obj"
+         "Win32-v120-Debug\CoinSearchTree.obj"
+         "Win32-v120-Debug\CoinShallowPackedVector.obj"
+         "Win32-v120-Debug\CoinSimpFactorization.obj"
+         "Win32-v120-Debug\CoinSnapshot.obj"
+         "Win32-v120-Debug\CoinStructuredModel.obj"
+         "Win32-v120-Debug\CoinWarmStartBasis.obj"
+         "Win32-v120-Debug\CoinWarmStartDual.obj"
+         "Win32-v120-Debug\CoinWarmStartPrimalDual.obj"
+         "Win32-v120-Debug\CoinWarmStartVector.obj"
+     1>CoinPresolvePsdebug.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         libCoinUtils.vcxproj -> C:\Users\Всеволод\Desktop\Clp-1.17.6\Clp-1.17.6\Clp\MSVisualStudio\v10\Win32-v120-Debug\libCoinUtils.lib
+     1>Done Building Project "C:\Users\Всеволод\Desktop\Clp-1.17.6\Clp-1.17.6\CoinUtils\MSVisualStudio\v10\libCoinUtils\libCoinUtils.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:28.37

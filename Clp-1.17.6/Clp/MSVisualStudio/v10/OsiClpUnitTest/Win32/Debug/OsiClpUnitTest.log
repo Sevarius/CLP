@@ -1,0 +1,16 @@
+﻿Build started 02.09.2020 14:20:37.
+     1>Project "C:\Users\Всеволод\Desktop\Clp-1.17.6\Clp-1.17.6\Clp\MSVisualStudio\v10\OsiClpUnitTest\OsiClpUnitTest.vcxproj" on node 3 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\..\Clp\src /I..\..\..\..\Clp\src\OsiClp /I..\..\..\..\Osi\src /I..\..\..\..\Osi\src\Osi /I..\..\..\..\Osi\src\OsiCommonTest /I..\..\..\..\CoinUtils\src /I..\..\..\..\BuildTools\headers /ZI /nologo /W3 /WX- /Od /Oy- /D OSI_BUILD /D WIN32 /D _DEBUG /D _CONSOLE /D COIN_MSVS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\test\OsiClpSolverInterfaceTest.cpp ..\..\..\test\osiUnitTest.cpp
+         osiUnitTest.cpp
+         OsiClpSolverInterfaceTest.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Всеволод\Desktop\Clp-1.17.6\Clp-1.17.6\Clp\MSVisualStudio\v10\Win32\Debug\OsiClpUnitTest.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Всеволод\Desktop\Clp-1.17.6\Clp-1.17.6\Clp\MSVisualStudio\v10\Win32\Debug\\" libCoinUtils.lib libOsi.lib libOsiCommonTest.lib libClp.lib libOsiClp.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Всеволод\Desktop\Clp-1.17.6\Clp-1.17.6\Clp\MSVisualStudio\v10\Win32\Debug\OsiClpUnitTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Всеволод\Desktop\Clp-1.17.6\Clp-1.17.6\Clp\MSVisualStudio\v10\Win32\Debug\OsiClpUnitTest.lib" /MACHINE:X86 /SAFESEH Win32\Debug\OsiClpSolverInterfaceTest.obj
+         Win32\Debug\osiUnitTest.obj
+     1>LINK : fatal error LNK1104: cannot open file 'libCoinUtils.lib'
+     1>Done Building Project "C:\Users\Всеволод\Desktop\Clp-1.17.6\Clp-1.17.6\Clp\MSVisualStudio\v10\OsiClpUnitTest\OsiClpUnitTest.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.91

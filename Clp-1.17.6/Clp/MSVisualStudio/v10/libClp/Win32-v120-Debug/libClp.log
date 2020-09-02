@@ -1,0 +1,144 @@
+﻿Build started 02.09.2020 14:34:10.
+     1>Project "C:\Users\Всеволод\Desktop\Clp-1.17.6\Clp-1.17.6\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\..\CoinUtils\src /I..\..\..\..\BuildTools\headers /Zi /nologo /W3 /WX- /Od /Oy- /D CLP_BUILD /D WIN32 /D _DEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGRADE=0x0710 /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32-v120-Debug\\" /Fd"Win32-v120-Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\src\Clp_C_Interface.cpp ..\..\..\src\ClpCholeskyBase.cpp ..\..\..\src\ClpCholeskyDense.cpp ..\..\..\src\ClpConstraint.cpp ..\..\..\src\ClpConstraintLinear.cpp ..\..\..\src\ClpConstraintQuadratic.cpp ..\..\..\src\ClpDualRowDantzig.cpp ..\..\..\src\ClpDualRowPivot.cpp ..\..\..\src\ClpDualRowSteepest.cpp ..\..\..\src\ClpDummyMatrix.cpp ..\..\..\src\ClpDynamicExampleMatrix.cpp ..\..\..\src\ClpDynamicMatrix.cpp ..\..\..\src\ClpEventHandler.cpp ..\..\..\src\ClpFactorization.cpp ..\..\..\src\ClpGubDynamicMatrix.cpp ..\..\..\src\ClpGubMatrix.cpp ..\..\..\src\ClpHelperFunctions.cpp ..\..\..\src\ClpInterior.cpp ..\..\..\src\ClpLinearObjective.cpp ..\..\..\src\ClpLsqr.cpp ..\..\..\src\ClpMatrixBase.cpp ..\..\..\src\ClpMessage.cpp ..\..\..\src\ClpModel.cpp ..\..\..\src\ClpNetworkBasis.cpp ..\..\..\src\ClpNetworkMatrix.cpp ..\..\..\src\ClpNode.cpp ..\..\..\src\ClpNonLinearCost.cpp ..\..\..\src\ClpObjective.cpp ..\..\..\src\ClpPackedMatrix.cpp ..\..\..\src\ClpPdco.cpp ..\..\..\src\ClpPdcoBase.cpp ..\..\..\src\ClpPlusMinusOneMatrix.cpp ..\..\..\src\ClpPredictorCorrector.cpp ..\..\..\src\ClpPresolve.cpp ..\..\..\src\ClpPrimalColumnDantzig.cpp ..\..\..\src\ClpPrimalColumnPivot.cpp ..\..\..\src\ClpPrimalColumnSteepest.cpp ..\..\..\src\ClpQuadraticObjective.cpp ..\..\..\src\ClpSimplex.cpp ..\..\..\src\ClpSimplexDual.cpp ..\..\..\src\ClpSimplexNonlinear.cpp ..\..\..\src\ClpSimplexOther.cpp ..\..\..\src\ClpSimplexPrimal.cpp ..\..\..\src\ClpSolve.cpp ..\..\..\src\Idiot.cpp ..\..\..\src\IdiSolve.cpp ..\..\..\src\ClpPESimplex.cpp ..\..\..\src\ClpPEPrimalColumnDantzig.cpp ..\..\..\src\ClpPEPrimalColumnSteepest.cpp ..\..\..\src\ClpPEDualRowDantzig.cpp ..\..\..\src\ClpPEDualRowSteepest.cpp
+         ClpPEDualRowSteepest.cpp
+         ClpPEDualRowDantzig.cpp
+         ClpPEPrimalColumnSteepest.cpp
+         ClpPEPrimalColumnDantzig.cpp
+         ClpPESimplex.cpp
+     1>..\..\..\src\ClpPESimplex.cpp(556): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>..\..\..\src\ClpPESimplex.cpp(567): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>..\..\..\src\ClpPESimplex.cpp(577): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>..\..\..\src\ClpPESimplex.cpp(587): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+         IdiSolve.cpp
+         Idiot.cpp
+         ClpSolve.cpp
+     1>..\..\..\src\ClpSolve.cpp(2933): warning C4244: '*=' : conversion from 'double' to 'int', possible loss of data
+     1>..\..\..\src\ClpSolve.cpp(2935): warning C4244: '*=' : conversion from 'double' to 'int', possible loss of data
+         ClpSimplexPrimal.cpp
+         ClpSimplexOther.cpp
+         ClpSimplexNonlinear.cpp
+         ClpSimplexDual.cpp
+         ClpSimplex.cpp
+         ClpQuadraticObjective.cpp
+         ClpPrimalColumnSteepest.cpp
+         ClpPrimalColumnPivot.cpp
+         ClpPrimalColumnDantzig.cpp
+         ClpPresolve.cpp
+         ClpPredictorCorrector.cpp
+         ClpPlusMinusOneMatrix.cpp
+         Generating Code...
+         Compiling...
+         ClpPdcoBase.cpp
+         ClpPdco.cpp
+     1>..\..\..\src\ClpPdco.cpp(628): warning C4800: 'double' : forcing value to bool 'true' or 'false' (performance warning)
+         ClpPackedMatrix.cpp
+         ClpObjective.cpp
+         ClpNonLinearCost.cpp
+         ClpNode.cpp
+         ClpNetworkMatrix.cpp
+         ClpNetworkBasis.cpp
+         ClpModel.cpp
+     1>..\..\..\src\ClpModel.cpp(1341): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\ClpModel.cpp(1352): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\ClpModel.cpp(3560): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\ClpModel.cpp(3587): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\ClpModel.cpp(3834): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\ClpModel.cpp(3855): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\ClpModel.cpp(3873): warning C4018: '<' : signed/unsigned mismatch
+     1>..\..\..\src\ClpModel.cpp(3894): warning C4018: '<' : signed/unsigned mismatch
+         ClpMessage.cpp
+         ClpMatrixBase.cpp
+         ClpLsqr.cpp
+         ClpLinearObjective.cpp
+         ClpInterior.cpp
+         ClpHelperFunctions.cpp
+         ClpGubMatrix.cpp
+         ClpGubDynamicMatrix.cpp
+         ClpFactorization.cpp
+         ClpEventHandler.cpp
+         ClpDynamicMatrix.cpp
+         Generating Code...
+         Compiling...
+         ClpDynamicExampleMatrix.cpp
+         ClpDummyMatrix.cpp
+         ClpDualRowSteepest.cpp
+         ClpDualRowPivot.cpp
+         ClpDualRowDantzig.cpp
+         ClpConstraintQuadratic.cpp
+         ClpConstraintLinear.cpp
+         ClpConstraint.cpp
+         ClpCholeskyDense.cpp
+         ClpCholeskyBase.cpp
+         Clp_C_Interface.cpp
+     1>..\..\..\src\Clp_C_Interface.cpp(1327): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>..\..\..\src\Clp_C_Interface.cpp(1331): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>..\..\..\src\Clp_C_Interface.cpp(1334): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>..\..\..\src\Clp_C_Interface.cpp(1337): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>..\..\..\src\Clp_C_Interface.cpp(1340): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>..\..\..\src\Clp_C_Interface.cpp(1343): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>..\..\..\src\Clp_C_Interface.cpp(1346): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>..\..\..\src\Clp_C_Interface.cpp(1349): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>..\..\..\src\Clp_C_Interface.cpp(1352): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>..\..\..\src\Clp_C_Interface.cpp(1355): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>..\..\..\src\Clp_C_Interface.cpp(1358): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Всеволод\Desktop\Clp-1.17.6\Clp-1.17.6\Clp\MSVisualStudio\v10\Win32-v120-Debug\libClp.lib" /NOLOGO "Win32-v120-Debug\Clp_C_Interface.obj"
+         "Win32-v120-Debug\ClpCholeskyBase.obj"
+         "Win32-v120-Debug\ClpCholeskyDense.obj"
+         "Win32-v120-Debug\ClpConstraint.obj"
+         "Win32-v120-Debug\ClpConstraintLinear.obj"
+         "Win32-v120-Debug\ClpConstraintQuadratic.obj"
+         "Win32-v120-Debug\ClpDualRowDantzig.obj"
+         "Win32-v120-Debug\ClpDualRowPivot.obj"
+         "Win32-v120-Debug\ClpDualRowSteepest.obj"
+         "Win32-v120-Debug\ClpDummyMatrix.obj"
+         "Win32-v120-Debug\ClpDynamicExampleMatrix.obj"
+         "Win32-v120-Debug\ClpDynamicMatrix.obj"
+         "Win32-v120-Debug\ClpEventHandler.obj"
+         "Win32-v120-Debug\ClpFactorization.obj"
+         "Win32-v120-Debug\ClpGubDynamicMatrix.obj"
+         "Win32-v120-Debug\ClpGubMatrix.obj"
+         "Win32-v120-Debug\ClpHelperFunctions.obj"
+         "Win32-v120-Debug\ClpInterior.obj"
+         "Win32-v120-Debug\ClpLinearObjective.obj"
+         "Win32-v120-Debug\ClpLsqr.obj"
+         "Win32-v120-Debug\ClpMatrixBase.obj"
+         "Win32-v120-Debug\ClpMessage.obj"
+         "Win32-v120-Debug\ClpModel.obj"
+         "Win32-v120-Debug\ClpNetworkBasis.obj"
+         "Win32-v120-Debug\ClpNetworkMatrix.obj"
+         "Win32-v120-Debug\ClpNode.obj"
+         "Win32-v120-Debug\ClpNonLinearCost.obj"
+         "Win32-v120-Debug\ClpObjective.obj"
+         "Win32-v120-Debug\ClpPackedMatrix.obj"
+         "Win32-v120-Debug\ClpPdco.obj"
+         "Win32-v120-Debug\ClpPdcoBase.obj"
+         "Win32-v120-Debug\ClpPlusMinusOneMatrix.obj"
+         "Win32-v120-Debug\ClpPredictorCorrector.obj"
+         "Win32-v120-Debug\ClpPresolve.obj"
+         "Win32-v120-Debug\ClpPrimalColumnDantzig.obj"
+         "Win32-v120-Debug\ClpPrimalColumnPivot.obj"
+         "Win32-v120-Debug\ClpPrimalColumnSteepest.obj"
+         "Win32-v120-Debug\ClpQuadraticObjective.obj"
+         "Win32-v120-Debug\ClpSimplex.obj"
+         "Win32-v120-Debug\ClpSimplexDual.obj"
+         "Win32-v120-Debug\ClpSimplexNonlinear.obj"
+         "Win32-v120-Debug\ClpSimplexOther.obj"
+         "Win32-v120-Debug\ClpSimplexPrimal.obj"
+         "Win32-v120-Debug\ClpSolve.obj"
+         "Win32-v120-Debug\Idiot.obj"
+         "Win32-v120-Debug\IdiSolve.obj"
+         "Win32-v120-Debug\ClpPESimplex.obj"
+         "Win32-v120-Debug\ClpPEPrimalColumnDantzig.obj"
+         "Win32-v120-Debug\ClpPEPrimalColumnSteepest.obj"
+         "Win32-v120-Debug\ClpPEDualRowDantzig.obj"
+         "Win32-v120-Debug\ClpPEDualRowSteepest.obj"
+         libClp.vcxproj -> C:\Users\Всеволод\Desktop\Clp-1.17.6\Clp-1.17.6\Clp\MSVisualStudio\v10\Win32-v120-Debug\libClp.lib
+     1>Done Building Project "C:\Users\Всеволод\Desktop\Clp-1.17.6\Clp-1.17.6\Clp\MSVisualStudio\v10\libClp\libClp.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:30.07

@@ -1,0 +1,36 @@
+﻿Build started 02.09.2020 14:19:58.
+     1>Project "C:\Users\Всеволод\Desktop\Clp-1.17.6\Clp-1.17.6\Osi\MSVisualStudio\v10\libOsi\libOsi.vcxproj" on node 3 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\..\CoinUtils\src /I..\..\..\..\BuildTools\headers /I..\..\..\..\Osi\src\Osi /Zi /nologo /W3 /WX- /Od /Oy- /D OSI_BUILD /D WIN32 /D _DEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGRADE=0x0710 /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32-v120-Debug\\" /Fd"Win32-v120-Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\src\Osi\OsiAuxInfo.cpp ..\..\..\src\Osi\OsiBranchingObject.cpp ..\..\..\src\Osi\OsiChooseVariable.cpp ..\..\..\src\Osi\OsiColCut.cpp ..\..\..\src\Osi\OsiCut.cpp ..\..\..\src\Osi\OsiCuts.cpp ..\..\..\src\Osi\OsiNames.cpp ..\..\..\src\Osi\OsiPresolve.cpp ..\..\..\src\Osi\OsiRowCut.cpp ..\..\..\src\Osi\OsiRowCutDebugger.cpp ..\..\..\src\Osi\OsiSolverBranch.cpp ..\..\..\src\Osi\OsiSolverInterface.cpp
+         OsiSolverInterface.cpp
+         OsiSolverBranch.cpp
+         OsiRowCutDebugger.cpp
+         OsiRowCut.cpp
+         OsiPresolve.cpp
+         OsiNames.cpp
+         OsiCuts.cpp
+         OsiCut.cpp
+         OsiColCut.cpp
+         OsiChooseVariable.cpp
+         OsiBranchingObject.cpp
+         OsiAuxInfo.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Всеволод\Desktop\Clp-1.17.6\Clp-1.17.6\Clp\MSVisualStudio\v10\Win32-v120-Debug\libOsi.lib" /NOLOGO "Win32-v120-Debug\OsiAuxInfo.obj"
+         "Win32-v120-Debug\OsiBranchingObject.obj"
+         "Win32-v120-Debug\OsiChooseVariable.obj"
+         "Win32-v120-Debug\OsiColCut.obj"
+         "Win32-v120-Debug\OsiCut.obj"
+         "Win32-v120-Debug\OsiCuts.obj"
+         "Win32-v120-Debug\OsiNames.obj"
+         "Win32-v120-Debug\OsiPresolve.obj"
+         "Win32-v120-Debug\OsiRowCut.obj"
+         "Win32-v120-Debug\OsiRowCutDebugger.obj"
+         "Win32-v120-Debug\OsiSolverBranch.obj"
+         "Win32-v120-Debug\OsiSolverInterface.obj"
+         libOsi.vcxproj -> C:\Users\Всеволод\Desktop\Clp-1.17.6\Clp-1.17.6\Clp\MSVisualStudio\v10\Win32-v120-Debug\libOsi.lib
+     1>Done Building Project "C:\Users\Всеволод\Desktop\Clp-1.17.6\Clp-1.17.6\Osi\MSVisualStudio\v10\libOsi\libOsi.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.35

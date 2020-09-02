@@ -1,0 +1,36 @@
+﻿Build started 02.09.2020 14:20:27.
+     1>Project "C:\Users\Всеволод\Desktop\Clp-1.17.6\Clp-1.17.6\Osi\MSVisualStudio\v10\libOsiCommonTest\libOsiCommonTest.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\..\CoinUtils\src /I..\..\..\..\BuildTools\headers /I..\..\..\..\Osi\src\Osi /I..\..\..\..\Osi\src\OsiCommonTest /Zi /nologo /W3 /WX- /Od /Oy- /D OSI_BUILD /D WIN32 /D _SCL_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32-v120-Debug\\" /Fd"Win32-v120-Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\src\OsiCommonTest\OsiColCutTest.cpp ..\..\..\src\OsiCommonTest\OsiCutsTest.cpp ..\..\..\src\OsiCommonTest\OsiNetlibTest.cpp ..\..\..\src\OsiCommonTest\OsiRowCutDebuggerTest.cpp ..\..\..\src\OsiCommonTest\OsiRowCutTest.cpp ..\..\..\src\OsiCommonTest\OsiSimplexAPITest.cpp ..\..\..\src\OsiCommonTest\OsiSolverInterfaceTest.cpp ..\..\..\src\OsiCommonTest\OsiUnitTestUtils.cpp
+         OsiUnitTestUtils.cpp
+         OsiSolverInterfaceTest.cpp
+     1>..\..\..\src\OsiCommonTest\OsiSolverInterfaceTest.cpp(3369): warning C4101: 'e' : unreferenced local variable
+     1>..\..\..\src\OsiCommonTest\OsiSolverInterfaceTest.cpp(3412): warning C4101: 'e' : unreferenced local variable
+     1>..\..\..\src\OsiCommonTest\OsiSolverInterfaceTest.cpp(3644): warning C4101: 'err' : unreferenced local variable
+         OsiSimplexAPITest.cpp
+         OsiRowCutTest.cpp
+     1>..\..\..\src\OsiCommonTest\OsiRowCutTest.cpp(346): warning C4800: 'double' : forcing value to bool 'true' or 'false' (performance warning)
+     1>..\..\..\src\OsiCommonTest\OsiRowCutTest.cpp(353): warning C4800: 'double' : forcing value to bool 'true' or 'false' (performance warning)
+     1>..\..\..\src\OsiCommonTest\OsiRowCutTest.cpp(272): warning C4101: 'e' : unreferenced local variable
+         OsiRowCutDebuggerTest.cpp
+         OsiNetlibTest.cpp
+         OsiCutsTest.cpp
+         OsiColCutTest.cpp
+     1>..\..\..\src\OsiCommonTest\OsiColCutTest.cpp(281): warning C4800: 'double' : forcing value to bool 'true' or 'false' (performance warning)
+     1>..\..\..\src\OsiCommonTest\OsiColCutTest.cpp(286): warning C4800: 'double' : forcing value to bool 'true' or 'false' (performance warning)
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Всеволод\Desktop\Clp-1.17.6\Clp-1.17.6\Clp\MSVisualStudio\v10\Win32-v120-Debug\libOsiCommonTest.lib" /NOLOGO "Win32-v120-Debug\OsiColCutTest.obj"
+         "Win32-v120-Debug\OsiCutsTest.obj"
+         "Win32-v120-Debug\OsiNetlibTest.obj"
+         "Win32-v120-Debug\OsiRowCutDebuggerTest.obj"
+         "Win32-v120-Debug\OsiRowCutTest.obj"
+         "Win32-v120-Debug\OsiSimplexAPITest.obj"
+         "Win32-v120-Debug\OsiSolverInterfaceTest.obj"
+         "Win32-v120-Debug\OsiUnitTestUtils.obj"
+         libOsiCommonTest.vcxproj -> C:\Users\Всеволод\Desktop\Clp-1.17.6\Clp-1.17.6\Clp\MSVisualStudio\v10\Win32-v120-Debug\libOsiCommonTest.lib
+     1>Done Building Project "C:\Users\Всеволод\Desktop\Clp-1.17.6\Clp-1.17.6\Osi\MSVisualStudio\v10\libOsiCommonTest\libOsiCommonTest.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.84

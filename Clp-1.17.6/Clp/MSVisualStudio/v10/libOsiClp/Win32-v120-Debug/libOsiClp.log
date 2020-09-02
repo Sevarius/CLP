@@ -1,0 +1,24 @@
+﻿Build started 02.09.2020 14:19:58.
+     1>Project "C:\Users\Всеволод\Desktop\Clp-1.17.6\Clp-1.17.6\Clp\MSVisualStudio\v10\libOsiClp\libOsiClp.vcxproj" on node 5 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\..\..\Clp\src /I..\..\..\..\Clp\src\OsiClp /I..\..\..\..\Osi\src /I..\..\..\..\Osi\src\Osi /I..\..\..\..\CoinUtils\src /I..\..\..\..\BuildTools\headers /Zi /nologo /W3 /WX- /Od /Oy- /D OSI_BUILD /D WIN32 /D _DEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _VC80_UPGRADE=0x0710 /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32-v120-Debug\\" /Fd"Win32-v120-Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\src\OsiClp\OsiClpSolverInterface.cpp
+         OsiClpSolverInterface.cpp
+     1>..\..\..\src\OsiClp\OsiClpSolverInterface.cpp(9785): warning C4101: 'iRow' : unreferenced local variable
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\algorithm(1026): warning C4996: 'std::_Transform1': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\algorithm(1007) : see declaration of 'std::_Transform1'
+                 ..\..\..\src\OsiClp\OsiClpSolverInterface.cpp(3894) : see reference to function template instantiation '_OutIt std::transform<const double*,double*,std::negate<double>>(_InIt,_InIt,_OutIt,_Fn1)' being compiled
+                 with
+                 [
+                     _OutIt=double *
+         ,            _InIt=const double *
+         ,            _Fn1=std::negate<double>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\algorithm(1007) : see declaration of 'std::_Transform1'
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Всеволод\Desktop\Clp-1.17.6\Clp-1.17.6\Clp\MSVisualStudio\v10\Win32-v120-Debug\libOsiClp.lib" /NOLOGO "Win32-v120-Debug\OsiClpSolverInterface.obj"
+         libOsiClp.vcxproj -> C:\Users\Всеволод\Desktop\Clp-1.17.6\Clp-1.17.6\Clp\MSVisualStudio\v10\Win32-v120-Debug\libOsiClp.lib
+     1>Done Building Project "C:\Users\Всеволод\Desktop\Clp-1.17.6\Clp-1.17.6\Clp\MSVisualStudio\v10\libOsiClp\libOsiClp.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.04
